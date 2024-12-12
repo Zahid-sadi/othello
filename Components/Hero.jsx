@@ -57,7 +57,7 @@ export function Hero() {
                                 <h2 className="text-xl md:text-2xl mb-4 transform transition-transform duration-700 ease-out delay-100 translate-y-0 opacity-100">
                                     {slide.subtitle}
                                 </h2>
-                                <p className="text-lg opacity-90 transform transition-transform duration-700 ease-out delay-200 translate-y-0 opacity-100">
+                                <p className="text-lg opacity-90 transform transition-transform duration-700 ease-out delay-200 translate-y-0">
                                     {slide.description}
                                 </p>
                             </div>
