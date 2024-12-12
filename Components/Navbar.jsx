@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useScroll } from "./Use-scroll";
+import { useScroll } from "./UseScroll";
 
 export function Navbar() {
     const scrolled = useScroll();
