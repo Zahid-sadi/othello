@@ -9,12 +9,12 @@ export function Navbar() {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
-                scrolled ? "bg-white shadow-lg shadow-gray-500" : "bg-transparent"
+                scrolled ? "bg-white shadow-md shadow-gray-500" : "bg-transparent"
             }`}
         >
             <nav className="container mx-auto px-4 h-20 flex items-center justify-between">
                 <Link href="/" className="text-2xl text-yellow-500 font-bold">
-                 Othello
+                    Othello
                 </Link>
 
                 <div className="hidden md:flex items-center gap-8">
