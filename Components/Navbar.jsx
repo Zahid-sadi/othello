@@ -19,26 +19,26 @@ export function Navbar() {
 
                 <div className="hidden md:flex items-center gap-8">
                     <Link href="/services" className="hover:text-primary transition-colors">
-                        サービス
+                       home
                     </Link>
                     <Link href="/cases" className="hover:text-primary transition-colors">
-                        事例紹介
+                        service
                     </Link>
                     <Link href="/company" className="hover:text-primary transition-colors">
-                        会社案内
+                        about
                     </Link>
                     <Link href="/careers" className="hover:text-primary transition-colors">
-                        採用案内
+                        more
                     </Link>
                     <Link href="/news" className="hover:text-primary transition-colors">
-                        お知らせ
+                        more
                     </Link>
-                    <button className="text-sm">English/日本語</button>
+                    <button className="text-sm">English</button>
                     <Link
                         href="/contact"
                         className="bg-[#F5A623] text-white px-6 py-2 rounded hover:bg-[#F5A623]/90 transition-colors"
                     >
-                        お問い合わせ
+                        contact
                     </Link>
                 </div>
             </nav>

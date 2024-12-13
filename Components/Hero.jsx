@@ -5,23 +5,17 @@ import { useEffect, useState } from "react";
 const slides = [
     {
         id: 1,
-        title: "Languages × IT Solutions",
-        subtitle: "「英語×IT」に特化した、バイリンガルITサポートで",
-        description: "お客様の規模や状況に応じて、柔軟にカスタマイズしたITサポートをご提供いたします。",
+      
         image: "https://images.unsplash.com/photo-1573495612077-a689b084faab?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         id: 2,
-        title: "Global IT Support",
-        subtitle: "世界中のビジネスをサポート",
-        description: "24時間365日、グローバルなITサポートを提供します。",
+       
         image: "https://images.unsplash.com/photo-1573495782176-b536322e5ad6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         id: 3,
-        title: "Custom Solutions",
-        subtitle: "カスタマイズされたソリューション",
-        description: "お客様のニーズに合わせた最適なITソリューションを提供します。",
+       
         image: "https://plus.unsplash.com/premium_photo-1675024298717-02d612d9cc82?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
 ];
